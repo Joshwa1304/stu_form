@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import StudentForm from "./StudentForm";
 import StudentList from "./StudentList";
-import "../css/Student.css"; // ✅ CSS import Files
+import "../css/Student.css"; // ✅ CSS import
 
 function StudentManagement() {
   const [students, setStudents] = useState([]);
